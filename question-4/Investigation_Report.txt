@@ -1,1 +1,11 @@
- 
+ Linux System Investigation Report
+
+• Open Files Inspection: Examined currently opened files using lsof. Active system processes and open file descriptors were successfully displayed.
+
+• File Descriptor Analysis: Verified standard file descriptors (0, 1, 2) and additional descriptors under /proc/$$/fd, confirming links to the active terminal device (/dev/pts/0).
+
+• Error Redirection: Redirected standard error output to error_out.txt while executing an invalid ls command. The error message was successfully captured in the file.
+
+• Resource Limits: Displayed current shell resource limits using ulimit -a, confirming limits for open files, processes, stack size, virtual memory, and CPU time.
+
+• Investigation Result: Successfully analyzed open files, file descriptors, error handling, and system resource limits using standard Linux diagnostic utilities.
