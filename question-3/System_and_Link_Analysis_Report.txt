@@ -1,1 +1,13 @@
- 
+ System and Link Analysis Report
+
+• Hard Link Creation: Created hard_link.txt linked to original_file.txt. Both files reference the same inode and data blocks.
+
+• Symbolic Link Creation: Created sym_link.txt as a symbolic reference to original_file.txt.
+
+• Link Verification: Verified link information using ls -li. The hard link shared the same inode number as the original file.
+
+• File Deletion Test: Deleted original_file.txt to observe link behavior.
+
+• Hard Link Result: hard_link.txt remained accessible and retained the original file content.
+
+• Symbolic Link Result: sym_link.txt became invalid because the target file no longer existed.
