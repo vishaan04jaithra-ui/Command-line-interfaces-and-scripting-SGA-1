@@ -1,1 +1,13 @@
- 
+ Project Workspace and Permission Management Report
+
+• Default Umask: The system umask value is 0002, allowing group write permissions for newly created files and directories.
+
+• Workspace Structure: Created a project_workspace directory containing docs and code subdirectories using mkdir -p.
+
+• File Creation: Created design.txt inside the docs directory to represent project documentation.
+
+• File Permissions: Verified design.txt permissions as -rw-rw-r--, consistent with the active umask settings.
+
+• Directory Security: Applied permission mode 700 to the code directory, restricting access to the owner only.
+
+• Ownership Verification: Confirmed ownership of design.txt is assigned to user "vishaan" and group "vishaan".
