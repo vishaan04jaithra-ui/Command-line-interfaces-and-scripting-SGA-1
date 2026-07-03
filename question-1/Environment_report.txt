@@ -1,1 +1,11 @@
- 
+Linux Environment Verification Report
+
+• Username and Groups: The active user is "vishaan", associated with the "vishaan" and "users" groups.
+
+• Current Shell: The current command-line shell environment is /bin/bash.
+
+• Current Working Directory: The workspace is located at /home/vishaan.
+
+• Workspace Contents: Verified standard user directories (Desktop, Documents, Downloads, Music, Pictures, Projects, Public, Templates, Videos) along with hidden configuration files such as .bashrc, .profile, .config, .cache, and .ssh.
+
+• Network Connectivity: The network is active and correctly configured; successfully sent and received 4 packets to google.com with 0% packet loss. 
