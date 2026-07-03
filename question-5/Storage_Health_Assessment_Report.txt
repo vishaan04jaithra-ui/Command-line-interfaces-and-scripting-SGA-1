@@ -1,1 +1,11 @@
- 
+ Linux Storage Health Assessment Report
+
+• Storage Devices: Verified available storage devices using lsblk. The system contains the primary disk (sda) with the root partition mounted on /.
+
+• Disk Usage: Examined mounted file systems using df -h. The root filesystem is operating normally with approximately 23% disk utilization and sufficient free storage space.
+
+• Inode Utilization: Checked inode usage using df -i. Filesystems show low inode consumption, indicating healthy filesystem usage.
+
+• Mount Status: Verified active mount points, including the root filesystem and temporary filesystems.
+
+• Storage Assessment: The storage subsystem is functioning correctly with adequate free space, healthy inode availability, and properly mounted filesystems.
